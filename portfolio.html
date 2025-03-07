@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="work">Work</a></li>
+          <li><a href="resume">Resume</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h1>My Portfolio</h1>
+      <p>
+        Hello! My name is Tunde and im a software engineer with a focus of full
+        stack web development
+      </p>
+
+      <video controls>
+        <source src="about video.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <selection id="about">
+      <h1>About Me</h1>
+      <p>
+        My name is Tunde and im a software engineer with a focus on full stack
+        development , both front end and backend with 5 years of experience
+      </p>
+      <audio controls>
+        <source src="Resume audio - Copy (2) - Copy.mp3" />
+      </audio>
+    </selection>
+
+    <selection id="Work">
+      <h1>My Work</h1>
+      <ul>
+        <li>
+          <h3>Senior Software Engineer</h3>
+          <p>Tech Solutions Ltd</p>
+          <p>2020 - 2021</p>
+        </li>
+        <li>
+          <h3>Frontend Developer</h3>
+          <p>Web Developers</p>
+          <p>2021 - 2022</p>
+        </li>
+        <li>
+          <h3>Junior Software Developer</h3>
+          <p>Creative codes</p>
+          <p>2022 - 2023</p>
+        </li>
+      </ul>
+    </selection>
+
+    <selection id="Resume">
+      <h1>Tunde Resume</h1>
+      <h3>Work Experience</h3>
+      <table border="1">
+        <tr>
+          <th>Job Tittle</th>
+          <th>Company</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>Senior Software engineer</td>
+          <td>Tech Solutions Ltd</td>
+          <td>2020 - 2021</td>
+        </tr>
+        <tr>
+          <td>Frontend Developer</td>
+          <td>Web Developers</td>
+          <td>2021 - 2022</td>
+        </tr>
+        <tr>
+          <td>Junior Software Developer</td>
+          <td>Creative Codes</td>
+          <td>2022 - 2023</td>
+        </tr>
+      </table>
+    </selection>
+    <selection id="Contact">
+      <h1>Contact Tunde:</h1>
+      <p>If you want to contact me for opportunities or collaborations</p>
+      <form action="/submit-form" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+        <label for="Message">Your meassage:</label>
+        <input type="Message" name="message" required />
+        <input type="submit" value="Send Message" />
+      </form>
+    </selection>
+  </body>
+</html>
