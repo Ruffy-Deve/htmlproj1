@@ -1,0 +1,79 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0%;
+  background-color: #f4f4f4;
+}
+.resume-container {
+  display: flex;
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+  width: 35%;
+  background: #003366;
+  color: white;
+  padding: 22px;
+}
+.sidebar h1 {
+  font-size: 25px;
+  margin-bottom: 1%;
+}
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.Personal-Info h3 {
+ border-bottom: 1px solid white;
+}
+.Skills h3 {
+  font-size: 16px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.Skills ul {
+  list-style-type: none;
+  padding: 0%;
+}
+.Skills ul li {
+  margin-bottom: 5px;
+}
+.Cv-Body {
+  width: 70%;
+  padding: 20px;
+  background: white;
+}
+.Cv-Body .Summary {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.Experience h3,
+.Job h4,
+.Education h3,
+.Certifications h3,
+.Interests h3 {
+  color: #003366;
+  border-bottom: 2px dotted #003366;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.job {
+  margin-bottom: 20px;
+}
+.job h4 {
+    margin-bottom: 5px;
+    color: #003366;
+}
+.job p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.Software h3 {
+    border-bottom: 1px solid white;
+}
+.Languages h3 {
+    border-bottom: 1px solid white;
+}
